@@ -7,7 +7,7 @@ app.set('view engine', 'ejs')
 const request = require('request');
 const apiKey = '8a1a3cc956c204ebbbd40834bdd9dc38';
 const bodyParser = require('body-parser');
-// ...
+// ...http://api.openweathermap.org/data/2.5/weather?q=Sydney&units=metric&appid=8a1a3cc956c204ebbbd40834bdd9dc38
 // ...
 
 app.post('/', function (req, res) {
